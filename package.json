@@ -1,0 +1,16 @@
+{
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "download",
+      "version": "^11.15.0"
+    }
+  },
+  "name": "datalabs",
+  "scripts": {},
+  "type": "module",
+  "version": "1.0.0",
+  "devDependencies": {
+    "prettier": "^3.9.5"
+  }
+}

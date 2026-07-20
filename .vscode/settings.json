@@ -12,6 +12,7 @@
   "Prettier-SQL.newlineBeforeSemicolon": false,
   "Prettier-SQL.tabSizeOverride": 2,
   "Prettier-SQL.tabulateAlias": false,
+  "notebook.compactView": true,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.suggest.insertMode": "replace"
@@ -49,6 +50,9 @@
     },
     "editor.suggest.insertMode": "replace"
   },
+  "[jupyter-notebook]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
   "[markdown]": {
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -60,6 +64,22 @@
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.wordWrap": "on"
+  },
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.defaultColorDecorators": "never",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": true,
+    "editor.wordBasedSuggestions": "off"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.venv": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true,
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -89,6 +109,8 @@
   "editor.rulers": [80],
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
+  "notebook.formatOnCellExecution": true,
+  "notebook.formatOnSave.enabled": true,
   "prettier.arrowParens": "always",
   "prettier.bracketSameLine": true,
   "prettier.bracketSpacing": true,
@@ -99,14 +121,22 @@
   "prettier.printWidth": 80,
   "prettier.proseWrap": "always",
   "prettier.quoteProps": "as-needed",
+  "notebook.showCellStatusBar": "hidden",
+  "notebook.showFoldingControls": "always",
   "prettier.semi": true,
   "prettier.singleAttributePerLine": false,
   "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "es5",
+  "notebook.breadcrumbs.showCodeCells": false,
+  "notebook.cellToolbarVisibility": "hover",
+  "notebook.cellToolbarLocation": {
+    "default": "hidden"
+  },
+  "notebook.cellFocusIndicator": "border",
   "prettier.useTabs": false,
   "notebook.output.scrolling": true,
-  "notebook.output.textLineLimit": 50,
+  "notebook.output.textLineLimit": 30,
   "sqltools.connections": [
     {
       "database": "postgres",
