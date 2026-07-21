@@ -1,0 +1,5 @@
+DROP SCHEMA IF EXISTS sql_for_data_analysis_advance_sql_querying_techniques CASCADE;
+
+CREATE SCHEMA IF NOT EXISTS sql_for_data_analysis_advance_sql_querying_techniques;
+
+USE sql_for_data_analysis_advance_sql_querying_techniques;

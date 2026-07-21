@@ -106,7 +106,7 @@
     "**/.git": true,
     "**/.hg": true,
     "**/.svn": true,
-    "**/.venv": false,
+    "**/.venv": true,
     "**/Thumbs.db": true,
     "**/node_modules": true
   },
@@ -143,12 +143,26 @@
     {
       "database": "postgres",
       "driver": "PostgreSQL",
-      "name": "datalabs",
+      "name": "datalabs_postgres",
       "port": 5433,
       "previewLimit": 50,
       "server": "localhost",
       "ssh": "Disabled",
       "username": "postgres"
+    },
+    {
+      "database": "mysql",
+      "driver": "MySQL",
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "name": "datalabs_mysql",
+      "port": 3307,
+      "previewLimit": 50,
+      "server": "localhost",
+      "ssh": "Disabled",
+      "username": "mysql"
     }
   ]
 }
