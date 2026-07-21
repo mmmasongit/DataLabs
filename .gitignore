@@ -1,6 +1,7 @@
 *.egg-info
 *.py[oc]
 .env
+.ipynb_checkpoints/
 .venv
 __pycache__/
 build/

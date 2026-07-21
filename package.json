@@ -1,13 +1,8 @@
 {
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "onFail": "download",
-      "version": "^11.15.0"
-    }
-  },
   "name": "datalabs",
-  "scripts": {},
+  "scripts": {
+    "juypter": "uv run --with jupyter jupyter lab"
+  },
   "type": "module",
   "version": "1.0.0",
   "devDependencies": {

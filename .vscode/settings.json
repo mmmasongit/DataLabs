@@ -1,5 +1,5 @@
 {
-  "Prettier-SQL.SQLFlavourOverride": "sqlite",
+  "Prettier-SQL.SQLFlavourOverride": "postgresql",
   "Prettier-SQL.commaPosition": "after",
   "Prettier-SQL.denseOperators": false,
   "Prettier-SQL.expressionWidth": 80,
@@ -12,7 +12,6 @@
   "Prettier-SQL.newlineBeforeSemicolon": false,
   "Prettier-SQL.tabSizeOverride": 2,
   "Prettier-SQL.tabulateAlias": false,
-  "notebook.compactView": true,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.suggest.insertMode": "replace"
@@ -72,15 +71,6 @@
     "editor.formatOnType": true,
     "editor.wordBasedSuggestions": "off"
   },
-  "files.exclude": {
-    "**/.DS_Store": true,
-    "**/.git": true,
-    "**/.hg": true,
-    "**/.svn": true,
-    "**/.venv": true,
-    "**/Thumbs.db": true,
-    "**/node_modules": true,
-  },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.suggest.insertMode": "replace"
@@ -106,11 +96,33 @@
   "editor.formatOnType": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "all",
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.venv": false,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "notebook.breadcrumbs.showCodeCells": false,
+  "notebook.cellFocusIndicator": "border",
+  "notebook.cellToolbarLocation": {
+    "default": "hidden"
+  },
+  "notebook.cellToolbarVisibility": "hover",
+  "notebook.compactView": true,
   "notebook.formatOnCellExecution": true,
   "notebook.formatOnSave.enabled": true,
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 30,
+  "notebook.showCellStatusBar": "hidden",
+  "notebook.showFoldingControls": "always",
   "prettier.arrowParens": "always",
   "prettier.bracketSameLine": true,
   "prettier.bracketSpacing": true,
@@ -121,22 +133,12 @@
   "prettier.printWidth": 80,
   "prettier.proseWrap": "always",
   "prettier.quoteProps": "as-needed",
-  "notebook.showCellStatusBar": "hidden",
-  "notebook.showFoldingControls": "always",
   "prettier.semi": true,
   "prettier.singleAttributePerLine": false,
   "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "es5",
-  "notebook.breadcrumbs.showCodeCells": false,
-  "notebook.cellToolbarVisibility": "hover",
-  "notebook.cellToolbarLocation": {
-    "default": "hidden"
-  },
-  "notebook.cellFocusIndicator": "border",
   "prettier.useTabs": false,
-  "notebook.output.scrolling": true,
-  "notebook.output.textLineLimit": 30,
   "sqltools.connections": [
     {
       "database": "postgres",
