@@ -1,0 +1,8 @@
+/*
+NOTES
+
+Welcome to this section on GROUP BY and Aggregate functions.
+
+GROUP BY will allow us to aggregate data and apply functions to better
+understand how data is distributed per category.
+ */
