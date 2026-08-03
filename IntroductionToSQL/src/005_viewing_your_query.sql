@@ -1,4 +1,4 @@
--- Create a view called library_authors
+-- Create a view called library_authors.
 CREATE VIEW
   library_authors AS
 SELECT DISTINCT
@@ -6,7 +6,8 @@ SELECT DISTINCT
 FROM
   introduction_to_sql.books;
 
--- Select all columns from library_authors
+-- Check that the view was created by selecting all columns from
+-- library_authors.
 SELECT
   *
 FROM

@@ -1605,3 +1605,28 @@ ALTER TABLE ONLY the_complete_sql_bootcamp_go_from_zero_to_hero.store
 -- PostgreSQL database dump complete
 --
 
+CREATE TABLE the_complete_sql_bootcamp_go_from_zero_to_hero.registrations (
+  reg_id integer,
+  name character varying(45) NOT NULL
+);
+
+INSERT INTO
+  the_complete_sql_bootcamp_go_from_zero_to_hero.registrations (reg_id, NAME)
+VALUES
+  (1, 'Andrew'),
+  (2, 'Bob'),
+  (3, 'Charlie'),
+  (4, 'David');
+
+CREATE TABLE the_complete_sql_bootcamp_go_from_zero_to_hero.logins (
+  log_id integer,
+  name character varying(45) NOT NULL
+);
+
+INSERT INTO
+  the_complete_sql_bootcamp_go_from_zero_to_hero.logins (log_id, NAME)
+VALUES
+  (1, 'Xavier'),
+  (2, 'Andrew'),
+  (3, 'Yolanda'),
+  (4, 'Bob');

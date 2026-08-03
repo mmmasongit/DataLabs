@@ -1,4 +1,5 @@
--- Alias author so that it becomes unique_author
+-- Add an alias to the SQL query to rename the author column to unique_author in
+-- the result set.
 SELECT DISTINCT
   author AS unique_author
 FROM

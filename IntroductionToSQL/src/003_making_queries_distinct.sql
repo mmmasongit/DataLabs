@@ -1,10 +1,11 @@
--- Select unique authors from the books table
+-- Select only the unique authors from the books table.
 SELECT DISTINCT
   (author)
 FROM
   introduction_to_sql.books;
 
--- Select unique authors and genre combinations from the books table
+-- Update the code to return the unique author and genre combinations in the
+-- books table.
 SELECT DISTINCT
   author,
   genre

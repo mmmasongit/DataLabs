@@ -1,17 +1,17 @@
--- Return all titles from the books table
+-- Select the title from the books table to view all book titles.
 SELECT
   title
 FROM
   introduction_to_sql.books;
 
--- Select title and author from the books table
+-- Select both the title and author fields from books.
 SELECT
   author,
   title
 FROM
   introduction_to_sql.books;
 
--- Select all fields from the books table
+-- Select all fields from the books table.
 SELECT
   *
 FROM

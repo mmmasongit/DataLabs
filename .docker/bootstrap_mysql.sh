@@ -1,8 +1,6 @@
 #!/bin/bash
 
-files=(
-  "/docker-entrypoint-initdb.d/SQLForDataAnalysisAdvanceSQLQueryingTechniques/restore.sql"
-)
+files=()
 
 restore_mysql() {
   mysql --show-warnings \

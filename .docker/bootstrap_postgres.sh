@@ -1,7 +1,6 @@
 #!/bin/bash
 
 files=(
-  "/docker-entrypoint-initdb.d/AnalyzingStudentsMentalHealth/restore.sql"
   "/docker-entrypoint-initdb.d/IntermediateSQL/restore.sql"
   "/docker-entrypoint-initdb.d/IntroductionToSQL/restore.sql"
   "/docker-entrypoint-initdb.d/JoinDataInSQL/restore.sql"
